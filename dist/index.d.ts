@@ -1,3 +1,4 @@
+export * from './app-modules';
 export * from './helpers';
 export * from './http';
 export * from './models';
