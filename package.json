@@ -2,10 +2,19 @@
   "name": "express-ts-core",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "main": "dist",
+  "types": "dist",
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [],
   "author": "Idamachmadfaizin",
   "license": "ISC",
+  "files": ["lib/**/*"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idamachmadfaizin/ExpressTsCore"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "express-jwt": "^6.1.0",
