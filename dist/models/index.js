@@ -12,6 +12,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./error"), exports);
 __exportStar(require("./express.interface"), exports);
+__exportStar(require("./module.class"), exports);
 __exportStar(require("./payload.interface"), exports);
 __exportStar(require("./response-log.class"), exports);
 __exportStar(require("./response.model"), exports);
