@@ -1,7 +1,3 @@
-/**
- * @author Idam Achmad Faizin
- * @date 2020-12-06 21:55:34
- */
 import { StringHelper } from '@helpers/index';
 import { IRequest } from '@models/index';
 import { Forbidden, Unauthorized } from '@models/error';
@@ -9,7 +5,7 @@ import { NextFunction, RequestHandler, Response } from 'express';
 import jwt from 'express-jwt';
 
 export function authUnless(pathsExclude?: (string | RegExp)[], base?: string): RequestHandler {
-  if (process.env.TOKEN_SECRET) throw new Error("TOKEN_SECRET in .env required");
+  if (process.env.TOKEN_SECRET) throw new Error('TOKEN_SECRET in .env required');
 
   const secret: string = process.env.TOKEN_SECRET ?? '';
 
