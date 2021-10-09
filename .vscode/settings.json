@@ -1,0 +1,9 @@
+{
+    "exportall.config.folderListener": [
+        "/src/helpers",
+        "/src/http",
+        "/src/models",
+        "/src/models/error",
+        "/src/prototypes"
+    ]
+}
